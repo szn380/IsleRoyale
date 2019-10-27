@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1323607358507442}
+  m_IsPrefabAsset: 1
+--- !u!1 &1323607358507442
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4402317488123008}
+  - component: {fileID: 114672449773475774}
+  m_Layer: 0
+  m_Name: RandomGen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4402317488123008
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1323607358507442}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.2, y: 0.8899274, z: 17.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114672449773475774
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1323607358507442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67191d55241dae248bc897f064199821, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  treePreFab1: {fileID: 4899810298853404, guid: 8fff2223d98653244b529d8b4af72782,
+    type: 2}
+  treePreFab2: {fileID: 4477046397382092, guid: 32a2f0bf6bdaaa54eaf3db71ae1db7e9,
+    type: 2}
+  treePreFab3: {fileID: 4992512444455718, guid: 7d05c578630cfcc40acfc1330d73cd32,
+    type: 2}
+  treePreFab4: {fileID: 4078949576842964, guid: 6ae51f5e5fc9d354fb89f557f658fb97,
+    type: 2}
+  treePinePreFab1: {fileID: 4623876215619014, guid: 68bae4f230e548f459ffaebfbd5abad6,
+    type: 2}
+  treePinePreFab2: {fileID: 4063813401811068, guid: 4cfd07c4edac2ad449326a143c53eb9d,
+    type: 2}
+  treePinePreFab3: {fileID: 4325056083507956, guid: 682ac8cb24f2384418476472b5a93e29,
+    type: 2}
+  treePinePreFab4: {fileID: 4047552917959452, guid: 8a2270841951ffc4a91dbf4f5edfb85c,
+    type: 2}
+  treeDeadPreFab1: {fileID: 4899810298853404, guid: 8fff2223d98653244b529d8b4af72782,
+    type: 2}
+  treeDeadPreFab2: {fileID: 4477046397382092, guid: 32a2f0bf6bdaaa54eaf3db71ae1db7e9,
+    type: 2}
+  treeDeadPreFab3: {fileID: 4992512444455718, guid: 7d05c578630cfcc40acfc1330d73cd32,
+    type: 2}
+  treeDeadPreFab4: {fileID: 4078949576842964, guid: 6ae51f5e5fc9d354fb89f557f658fb97,
+    type: 2}
+  rockPreFab1: {fileID: 4884159591615640, guid: 8820176c8f07a7149b998f7af67735f0,
+    type: 2}
+  rockPreFab2: {fileID: 4903549602606008, guid: 3d71197ae9cef04408fbbf3593be3c76,
+    type: 2}
+  rockPreFab3: {fileID: 4729303415004174, guid: 4d2044afad31036449e55877f8a77d89,
+    type: 2}
+  rockPreFab4: {fileID: 4483513415290300, guid: d9b21685e2da25b4891ca9b7e7fe6696,
+    type: 2}
+  plantPreFab1: {fileID: 4980912311722878, guid: f2f712f541b30514a8e354d600513bfa,
+    type: 2}
+  plantPreFab2: {fileID: 4159979568754974, guid: ed59397f0bc0873449a44fdba262e3ed,
+    type: 2}
+  plantPreFab3: {fileID: 4635987827234654, guid: aad0a7edbd81d92478c37aa17f36b175,
+    type: 2}
+  plantPreFab4: {fileID: 4204669629858188, guid: ae4425c3b74908543a996fd5fc5992fd,
+    type: 2}
+  tallPlantPreFab1: {fileID: 4798551015630522, guid: 1ac37e4ed350e6c41aa8b386795f4efa,
+    type: 2}
+  tallPlantPreFab2: {fileID: 4534153397529758, guid: 5f03bd20691ca4d4d9589b65a68ddb29,
+    type: 2}
+  PlanePrefab: {fileID: 4724933298112010, guid: 1af90b6cd1359934c93f9a9f38fe3923,
+    type: 2}
+  SwampPrefab: {fileID: 4895009609203588, guid: 56dca5abc39b9bc4c9ddbbcfeaa490c6,
+    type: 2}
+  BeaverLodgePrefab: {fileID: 4550425690085334, guid: 5a39da7f5a0c23d478ee3c40760cee64,
+    type: 2}
+  RabbitWarrenPrefab: {fileID: 4064640524085862, guid: 4aafd753c3b15754985031cff21e802b,
+    type: 2}
+  BeaverPrefab: {fileID: 4560576746852328, guid: 2f009226fe89da24ebbee335d9e00af0,
+    type: 2}
+  RabbitPrefab: {fileID: 4049806040127282, guid: df1fc2a72d293f343aff7b516a526b32,
+    type: 2}
+  MoosePrefab: {fileID: 4140021848327424, guid: 1668bd08243af984aa59fc134947729f,
+    type: 2}
+  WolfPrefab: {fileID: 4131937549242042, guid: 26b1a9cd71297894faf2a68060637b80, type: 2}
+  skyboxPrefab: {fileID: 4056101638835766, guid: 2d8cf65ad829c5944b1c8554142b33c9,
+    type: 2}
+  GenerationDimensionCal: 150
+  MapScaleFactor: 40
+  NumberOfPlantsCal: 3000
+  NumberOfTreesCal: 150
+  NumberOfRocksCal: 400
+  NoOfBeaverGroupsCal: 5
+  BeaversPerGroupCal: 12
+  NoOfRabbitsGroupsCal: 5
+  RabbitsPerGroupCal: 12
+  NoOfMooseGroupsCal: 5
+  MoosePerGroupCal: 8
+  NoOfWolvesGroupsCal: 3
+  WolvesPerGroupCal: 6

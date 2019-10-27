@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 79247a222e375994c96bde2597e4818d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Gore: {fileID: 4998660139366192, guid: 1c8c6b4c030d2064686af5718b0299ae, type: 2}
+  - Rabbit: {fileID: 4937719431688018, guid: 40c4dfa794b21424fb022a850cbb72d1, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
